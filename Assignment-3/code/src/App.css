@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Employee {
+    width: 600px;
+}
+
+.Header {
+    width: 100%;
+    height: 50px;
+    background: #fbfbfb;
+}
+
+.PrintWrapper {
+    text-align: right;
+}
+
+.HeaderNavigator {
+    font-size: 20px;
+    line-height: 20px;
+    transform: scaleY(1.5);
+    height: 20px;
+}
+
+.Header>div {
+    width: 33.3333%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.BackBtn {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    transform: scaleY(1.5);
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    color: #ccc;
+}
+
+button {
+    background: #333;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.EmployeeName {
+    font-weight: 500;
+}
+
+.EmployeeId {
+    color: #aaa;
+}
+
+.HeaderContent {
+    height: 50px;
+    font-size: 14px;
+    line-height: 22.5px;
+}
+
+.Content {
+    margin: 20px;
+    border: 1px solid #eee;
+    width: calc(100% - 40px);
+    border-radius: 4px;
+}
+
+.ContactDetailWrapper,
+.StatusDetailWrapper {
+
+    margin: 5px;
+    font-size: 14px;
+}
+
+span.ContactDetailName,
+.StatusDetailName {
+    font-weight: 700
+}
+
+.StatusDetailWrapper {
+    display: inline-block;
+    width: calc(33% - 10px);
+}
+
+.StatusInfo {
+    background: rgb(250, 250, 250);
+}
+
+span.statusIcon {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background: black;
+    margin-right: 5px;
+}
+
+.RoleInfo>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.RoleInfoBox {
+    height: 15px;
+    width: 26%;
+    outline: 2px solid yellow;
+    border: 2px solid yellow;
+    margin-left: 23px;
+
+}
+
+.EmployeeImage {
+    width: 20%;
+}
+
+.RoleInfoBoxWrapper {
+    width: 10%;
+}
+
+.EmployeeImage img {
+    width: calc(100% - 30px);
+    margin: 15px;
+}
+
+.RoleInfo .RoleDetail {
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.EmployeeRole {
+    font-weight: 600;
+}
